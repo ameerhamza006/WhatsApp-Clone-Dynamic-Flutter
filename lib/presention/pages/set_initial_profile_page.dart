@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_whatsapp_clone/presention/screens/home_screen.dart';
 import 'package:flutter_whatsapp_clone/presention/widgets/theme/style.dart';
 
 
@@ -44,7 +45,8 @@ class _SetInitialProfileWidgetState extends State<SetInitialProfileWidget> {
                 child: MaterialButton(
                   color: greenColor,
                   onPressed: (){
-                    //  Navigator.push(context, MaterialPageRoute(builder: (_) => PhoneVerificationPage()));
+                      Navigator.push(context, MaterialPageRoute(builder: (_) => HomeScreen()));
+
                   },
                   child: Text("Next",style: TextStyle(fontSize: 18,color: Colors.white),
                   ),
